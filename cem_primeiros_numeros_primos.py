@@ -8,7 +8,6 @@ app = Flask(__name__)
 def numero_primos():
     primos=""
     qtdprimos=0
-    msg=''
     
     for n in range(0,542):
         divisores=0
